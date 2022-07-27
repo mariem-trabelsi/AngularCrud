@@ -1,0 +1,13 @@
+  Angular Crud: 
+
+1. créer un service en lançant cette commande : ng g s nom_service
+2. faire appeler l'api dans nom_service.service.ts 
+3. créer un model (pour faire mapper les données de bases de données):
+il est préférable de créer un dossier nommé model,
+puis on crée dedans une classe : ng g classe nom_classe
+et je mentionne dans cette classe les attributs (qui servent pour mapper les les champs d'une table de la base de données)
+4. aller au composant ou vous allez traiter les données de l'api puis importer le service et la classe.
+ Vous devez implémenter la méthode ngOnInit  pour inscrire les données de l'api (.subscribe())
+ ngOnInit: une méthode spéciale qui se lance à chaque  fois que le composant est update.
+
+
